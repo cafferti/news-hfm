@@ -89,15 +89,18 @@ article img{
 
 /* section cta */
  .cta{
+    margin-block: 1rem;
     background-color: var(--Very-dark-blue);
     padding-block: 1rem;
 }
 .cta article{
-    padding: 1.5rem;
+    padding-block: 1.5rem;
     border-bottom:0.1rem var(--Off-white) solid;
 }
 .cta article p{
     color:var(--Grayish-blue) ;
+    padding-right: rem;
+
 }
 .cta :last-child{
     border-bottom: none;
@@ -112,4 +115,9 @@ article img{
     font-size: 20px;
     padding-block: 0.5rem;
 }
+
+/* section cta */
+
+
+
 
