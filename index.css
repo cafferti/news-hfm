@@ -13,8 +13,13 @@ h1 ,h2 ,h3 ,p {
     box-sizing: border-box;
     
 }
+main{
+    display: grid;
+    gap: 1.7rem;
+}
 
 main a{
+    margin-block: 1rem;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -24,7 +29,6 @@ main a{
     padding-block: 0.8rem;
     font-size: 12px;
     letter-spacing: 4px;
-    margin-block: 1rem;
     width: 50%;
     text-align: center;
 }
@@ -43,7 +47,7 @@ p{
 h1{
     font-weight: 800;
     font-size: 3rem;
-    padding-block: 0.8rem;
+
 }
 
 h2, h3{
@@ -79,6 +83,7 @@ body .intro-image{
 /* intro image */
 
 
+
 /* article images */
 article img{
     height:125px ;
@@ -89,7 +94,7 @@ article img{
 
 /* section cta */
  .cta{
-    margin-block: 1rem;
+    
     background-color: var(--Very-dark-blue);
     padding-block: 1rem;
 }
@@ -99,7 +104,7 @@ article img{
 }
 .cta article p{
     color:var(--Grayish-blue) ;
-    padding-right: rem;
+    
 
 }
 .cta :last-child{
@@ -119,10 +124,15 @@ article img{
 /* section cta */
 
 /* section activity */
+
+.activity{
+    gap: 20px;
+
+}
 .activity article{
     display: flex;
-    align-items: flex-end;
-    padding-block: 1rem;
+    padding-block: 2rem;
+
 }
 
 .activity article .tech{
@@ -132,7 +142,103 @@ article img{
 .activity article h3{
     font-size: 17px;
     padding-block: 1rem;
+    
 }
+
+/* desktop-view-query */
+@media (min-width: 777px){
+    main{
+        height: 700px !important;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "intro-image intro-image cta"
+        "head left-link cta"
+        "activity activity activity"
+    }
+
+    main > *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .intro-image{
+        grid-area: intro-image;
+    }
+
+    h1{
+        grid-area:head ;
+    }
+
+    .leftlinkp{
+        grid-area: left-link;
+    }
+
+    .cta{
+        grid-area: cta;
+    }
+
+    .activity{
+        grid-area: activity;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* intro-img */
+    .intro-image ,h1 ,.leftlinkp{
+        height: 100%;
+        
+        flex-direction: column;
+       
+    }
+    .leftlinkp{
+        justify-content: space-between;
+        display: flex;
+        
+        
+    }
+
+
+.cta :last-child{
+    padding-bottom: 0px;
+}
+
+
+    main a{
+        margin-bottom: 0px;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    .activity article h3{
+        font-size: 13px;
+    }
+    
+    p{
+        font-size: 13px;
+    }
+
+}
+@media only screen and (max-width: 991px) and (min-width: 777px){
+    h1{
+        font-size: 2rem;
+}
+p{
+    font-size: 10px;
+}
+.activity article h3{
+    font-size: 10px;
+    font-weight:800;
+}
+main a{
+    font-size: 10px;
+    width: 70%;
+}
+.activity  {
+    padding: auto;
+}
+
+
 
 
 
