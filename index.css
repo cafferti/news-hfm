@@ -81,7 +81,7 @@ body .intro-image{
 
 /* article images */
 article img{
-    height:150px ;
+    height:125px ;
     width: 100px;
 }
 /* article image */
@@ -117,6 +117,22 @@ article img{
 }
 
 /* section cta */
+
+/* section activity */
+.activity article{
+    display: flex;
+    align-items: flex-end;
+    padding-block: 1rem;
+}
+
+.activity article .tech{
+   padding-left: 1rem;
+}
+
+.activity article h3{
+    font-size: 17px;
+    padding-block: 1rem;
+}
 
 
 
