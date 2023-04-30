@@ -7,11 +7,12 @@
   box-sizing: border-box;
 }
 
-h1 ,h2 ,h3 ,p {
+h1 ,h2 ,h3 ,p , {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     
+
 }
 main{
     display: grid;
@@ -144,9 +145,25 @@ article img{
     padding-block: 1rem;
     
 }
+/* navbar */
+.offcanvas.offcanvas-end{
+    width: 65%;
+
+}
+.container-fluid{
+    padding-inline: 0px;
+}
+.navbar-toggler{
+    padding-inline: 0px;
+}
+/* navbar */
 
 /* desktop-view-query */
 @media (min-width: 777px){
+   
+   nav .navbar-nav{
+    padding-inline: 0px;
+   }
     main{
         height: 700px !important;
         display: grid;
@@ -241,5 +258,6 @@ main a{
 
 
 
+}
 
 
