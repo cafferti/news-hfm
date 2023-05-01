@@ -160,6 +160,24 @@ article img{
 
 /* desktop-view-query */
 @media (min-width: 777px){
+
+    /* active states */
+
+.nav-item .nav-link:hover{
+    color: var(--Soft-red);
+}
+
+h3:hover{
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+
+main a:hover{
+  background-color: var(--Very-dark-blue);
+}
+
+
+      /* active states */
    
    nav .navbar-nav{
     padding-inline: 0px;
