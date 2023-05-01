@@ -39,8 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [visit-live-project-site](https://cafferti.github.io/news-hfm/)
 
 ## My process
 
@@ -51,9 +50,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ### What I learned
@@ -68,12 +64,12 @@ basic knowlegde on grid
 
 ### Useful resources
 
-- [Example resource 1](https://www.font-awesome.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.google-fonts.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [mozilla-web docs](https://developer.mozilla.org/en-US/docs/Learn) - This helped me in providing all i need to know about front-end web developement. I really liked this pattern and will use it going forward.
+- [font-awsesome](https://fontawesome.com) - This is an amazing website which helped me obtain all the fonts used in this project. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [saul kumven](https://www.your-site.com)
+- - instagram - [@cafferti](https://www.instagram.com/dude_christiian)
 - Frontend Mentor - [@cafferti](https://www.frontendmentor.io/profile/cafferti)
 - Twitter - [@saulkumvee](https://www.twitter.com/saulkumvee)
 
